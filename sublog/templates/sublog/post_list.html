@@ -8,7 +8,7 @@
         </div>
         <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
         <div class="text-list">
-            <p>{{ post.text|linebreaksbr }}</p>
+            <p>{{ post.text|truncatewords:10 }}</p>
         </div>
         <hr>
     </div>
