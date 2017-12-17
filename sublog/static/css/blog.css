@@ -1,0 +1,27 @@
+.page-header a {
+    color: #000000;
+    margin-left: 10%;
+    font-size: 120%;
+/*    font-family: Karmina;*/
+    font-family: 'Fixedsys Excelsior 3.01';
+}
+.page-header {
+margin-top: -20px;
+    background:#d87dff;
+}
+.plus {
+margin-top: -50px;
+margin-left: 82%;
+font-size: 210%;
+}
+
+body {
+background:;
+}
+
+.content a{
+color: #d87dff;
+text-shadow: 2px 2px 1px red;
+
+
+}
