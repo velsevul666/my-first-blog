@@ -9,11 +9,16 @@
     </head>
     <body>
         <div class="page-header">
+            <br><br>
+            <h1><a href="/"><b>Всем приветики в этом чатике </b> </a></h1>
             {% if user.is_authenticated %}
-                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+               <div class="plus"> <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                </div>
             {% endif %}
-            <h1><a href="/"> Всем приветики в этом чатике  </a></h1>
+            <br><br>
+
     </div>
+        <div class="content">
     <div class="content container">
         <div class="row">
             <div class="col-md-8">
@@ -22,5 +27,7 @@
             </div>
         </div>
     </div>
+        </div>
+
     </body>
 </html>
