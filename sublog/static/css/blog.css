@@ -2,26 +2,76 @@
     color: #000000;
     margin-left: 10%;
     font-size: 120%;
-/*    font-family: Karmina;*/
     font-family: 'Fixedsys Excelsior 3.01';
 }
 .page-header {
-margin-top: -20px;
+    margin-top: -20px;
     background:#d87dff;
 }
 .plus {
-margin-top: -50px;
-margin-left: 82%;
-font-size: 210%;
+    margin-top: -50px;
+    margin-left: 82%;
+    font-size: 210%;
+}
+
+.pencil {
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size: 300%;
 }
 
 body {
-background:;
+    background:;
 }
 
 .content a{
-color: #d87dff;
-text-shadow: 2px 2px 1px red;
+    color: #d87dff;
+    text-shadow: 2px 2px 1px red;
+}
 
+.post_header {
+    margin-left: 10%;
+    font-size: 100%;
+    color: #d87dff;
+    text-shadow: 2px 2px 1px red;
+}
+.new_post {
+    margin-left: 5%;
+    font-size: 100%;
+    color: #d87dff;
+    text-shadow: 2px 2px 1px red;
+}
 
+.post_text {
+    margin-left: 15%;
+    margin-top: 20px;
+    font-size: 180%;
+    font-family: 'Fixedsys Excelsior 3.01';
+}
+
+.date {
+    font-size: 120%;
+    font-family: 'Fixedsys Excelsior 3.01';
+}
+
+.post-form {
+    font-size: 120%;
+    font-family: 'Fixedsys Excelsior 3.01';
+}
+ .text-list {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 130%;
+    text-shadow: 2px 2px 1px #d87dff;
+ }
+
+ .date-list {
+    margin-top: 25px;
+    font-size: 100%;
+    font-family: 'Fixedsys Excelsior 3.01';
+}
+
+ hr {
+     height: 2px;
+     background-color: #d87dff;
 }
