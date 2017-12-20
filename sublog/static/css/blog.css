@@ -8,6 +8,7 @@
     margin-top: -20px;
     background:#d87dff;
 }
+
 .plus {
     margin-top: -50px;
     margin-left: 82%;
@@ -20,12 +21,9 @@
     font-size: 300%;
 }
 
-body {
-    background:;
-}
-
 .content a{
     color: #d87dff;
+    font-size: 27px;
     text-shadow: 2px 2px 1px red;
 }
 
@@ -45,7 +43,7 @@ body {
 .post_text {
     margin-left: 15%;
     margin-top: 20px;
-    font-size: 180%;
+    font-size: 150%;
     font-family: 'Fixedsys Excelsior 3.01';
 }
 
@@ -75,3 +73,23 @@ body {
      height: 2px;
      background-color: #d87dff;
 }
+
+.top-bar {
+    margin-top: -30px;
+    background-color: #d87dff;
+    margin-left: 87%;
+    font-size: 15px;
+    }
+
+.right {
+    list-style-type: none
+}
+
+.authe {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-size: 130%;
+    line-height: 2
+}
+
+
+
