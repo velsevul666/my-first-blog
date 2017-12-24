@@ -1,5 +1,6 @@
 {% extends 'sublog/base.html' %}
 
+
 {% block content%}
     {% for post in posts %}
     <div>
@@ -11,6 +12,6 @@
             <p>{{ post.text|truncatewords:10 }}</p>
         </div>
         <hr>
-    </div>
     {% endfor %}
+         </div>
 {% endblock %}

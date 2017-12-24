@@ -1,3 +1,4 @@
+
 {% extends 'sublog/base.html' %}
 
 {% block content %}
@@ -14,10 +15,16 @@
         </div>
         {% endif %}
         <div class="post_header">
-        <h1>{{ post.title }}</h1>
+            <h1>{{ post.title }}</h1>
+        </div>
+        <div class="post_img">
+            {% if post.post_img %}
+                <p><img src="{{ MEDIA_URL }}{{ post.post_img.url }}"></p>
+            {% endif %}
         </div>
         <div class="post_text">
-        <p>{{ post.text|linebreaksbr}}</p>
+            <p>{{ post.text|linebreaksbr}}</p>
+
         </div>
     </div>
 {% endblock %}

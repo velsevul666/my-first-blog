@@ -56,6 +56,11 @@
     font-size: 120%;
     font-family: 'Fixedsys Excelsior 3.01';
 }
+.post-form a {
+    font-size: 20px;
+    font-family: 'Fixedsys Excelsior 3.01';
+    text-shadow: 0px 0px 0px;
+    }
  .text-list {
     margin-left: 15px;
     margin-top: 20px;
@@ -91,5 +96,13 @@
     line-height: 2
 }
 
+.post_img img {
+    width: 550px;
+    margin-top:20px;
+}
 
+.post_img p {
+
+text-align:center;
+}
 
